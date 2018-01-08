@@ -7,7 +7,7 @@ const client = new Client({
 
 (async function() {
   const query = `CREATE TABLE users (
-    id          uuid,
+    id          uuid PRIMARY KEY,
     email       varchar,
     name        varchar,
     password    varchar,

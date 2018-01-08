@@ -9,7 +9,9 @@
     "migration:setup": "node scripts/migration.js setup",
     "migration:teardown": "node scripts/migration.js teardown",
     "setup": "node scripts/setup_teardown setup",
-    "teardown": "node scripts/setup_teardown teardown"
+    "setup:create": "node scripts/migration.js setup",
+    "teardown": "node scripts/setup_teardown teardown",
+    "teardown:create": "node scripts/migration.js teardown"
   },
   "author": "Conrad Muan <con.muan@gmail.com>",
   "license": "ISC",
